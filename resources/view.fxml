@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<GridPane fx:controller="src.GameController" xmlns:fx="http://javafx.com/fxml" styleClass="root">
+    <StackPane fx:id="pane00" GridPane.columnIndex="0" GridPane.rowIndex="0" prefHeight="100" prefWidth="100" style="-fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" />
+    <StackPane fx:id="pane10" GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="100" prefWidth="100" style="-fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" />
+    <StackPane fx:id="pane20" GridPane.columnIndex="2" GridPane.rowIndex="0" prefHeight="100" prefWidth="100" style="-fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" />
+
+    <StackPane fx:id="pane01" GridPane.columnIndex="0" GridPane.rowIndex="1" prefHeight="100" prefWidth="100" style="-fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" />
+    <StackPane fx:id="pane11" GridPane.columnIndex="1" GridPane.rowIndex="1" prefHeight="100" prefWidth="100" style="-fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" />
+    <StackPane fx:id="pane21" GridPane.columnIndex="2" GridPane.rowIndex="1" prefHeight="100" prefWidth="100" style="-fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" />
+
+    <StackPane fx:id="pane02" GridPane.columnIndex="0" GridPane.rowIndex="2" prefHeight="100" prefWidth="100" style="-fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" />
+    <StackPane fx:id="pane12" GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="100" prefWidth="100" style="-fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" />
+    <StackPane fx:id="pane22" GridPane.columnIndex="2" GridPane.rowIndex="2" prefHeight="100" prefWidth="100" style="-fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;" />
+
+</GridPane>
